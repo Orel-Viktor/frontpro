@@ -32,13 +32,13 @@ let matrix2 ={planet:'Earht', system:'Sun'};
 console.log(typeof matrix2);
 console.log(matrix2);
 
-let spriteSym = Symbol('GG')
-console.log(typeof spriteSym)
+let spriteSym = Symbol('GG');
+console.log(typeof spriteSym);
 
 function calculate (a,b,c){
   let value = a+b;
   let values = value/c;
-  console.log(values)
-  console.log(typeof calculate)
-}
+  console.log(values);
+  console.log(typeof calculate);
+};
 calculate(5,1,2);
